@@ -1,0 +1,90 @@
+#root {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.listPage {
+    justify-content: center;
+}
+
+ul {
+	list-style: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.tweet {
+    padding: 10px;
+    margin: 5px;
+    width: 500px;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+}
+.tweet-btn-group {
+    justify-content: right;
+    margin: auto 0;
+}
+
+.liked {
+    background-color: rgb(226, 226, 248);
+}
+
+#navigationButtons,
+.formButtons {
+    text-align: center;
+}
+
+button {
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(185, 185, 204);
+    border: 1px solid rgb(123, 123, 136);
+}
+
+button:hover {
+    background-color: #dff0d8;
+    border: 1px solid #9dac91;
+    cursor: pointer;
+}
+
+textarea {
+    width:200px;
+    height: 100px;
+}
+
+li div p {
+    vertical-align: middle;
+}
+
+span {
+    margin: auto;
+}
+
+.alert-message {
+    padding: 15px;
+    border: 1px solid #9dac91;
+    color: #3c763d;
+    background-color: #dff0d8;
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.tweet,
+.tweet p {
+    cursor: pointer;
+}
