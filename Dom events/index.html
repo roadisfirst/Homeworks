@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Homework 15 - JS DOM Events</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="task1">
+    <!-- TEMPLATE FOR TASK 1 GOES HERE -->
+    <table id="table" class="table">
+      <tr><td id="row1">Cell</td><td>Cell</td><td>Cell</td></tr>
+      <tr><td id="row2">Cell</td><td id="specialCell">Special Cell</td><td>Cell</td></tr>
+      <tr><td id="row3">Cell</td><td>Cell</td><td>Cell</td></tr>
+    </table>
+  </div>
+  <div id="task2">
+    <!-- TEMPLATE FOR TASK 2 GOES HERE -->
+    <div id="message" class="message"></div>
+    <form id="telValidation" class="form">
+      <input id="formInput" type="text" class="form-input" placeholder="Type phone number in format +380*********">
+      <button id="buttonSubmit" class="form-button" disabled>Send</button>
+    </form>
+  </div>
+  <div id="task3">
+    <!-- TEMPLATE FOR TASK 3 GOES HERE -->
+    <div id="courtContainer" class="courtContainer">
+      <img src="./assets/court.png" id="court" class="court" alt="court">
+      <img src="./assets/ball.png" id="ball" class="ball" alt="ball">
+      <div id="scoreZoneA" class="score-zone-A"></div>
+      <div id="scoreZoneB" class="score-zone-B"></div>
+    </div>
+    <div id="scoreboard" class="scoreboard">
+      <p>Team A:<span id="scoreboardA"></span></p>
+      <p id="notafication"></p>
+      <p>Team B:<span id="scoreboardB"></span></p>
+    </div>
+  </div>
+  <script src="./index.js"></script>
+</body>
+</html>

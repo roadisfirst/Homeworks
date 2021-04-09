@@ -1,0 +1,53 @@
+.app {
+    text-align: center;
+    width: 100%;
+}
+
+.search-form {
+    width: 40%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.search-form field {
+    display: flex;
+    margin: 10px 100px;
+    align-items: center;
+} 
+
+.form-radio {
+    text-align: left;
+}
+
+select {
+    width: 150px;
+}
+
+.countries {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.countries td, .countries th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.countries tr:nth-child(even){background-color: #f2f2f2;}
+
+.countries tr:hover {background-color: #ddd;}
+
+.countries th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+span {
+    color: yellow;
+    margin: 0 5px;
+    cursor: pointer;
+}

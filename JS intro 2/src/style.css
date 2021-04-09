@@ -1,0 +1,34 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+.container {
+    display: none;
+    margin: 20px auto;
+}
+.event-form {
+    width: 600px;
+    border: 1px solid lightgrey;
+    padding: 10px;
+}
+
+.event-form-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px auto;
+    background-color: rgba(75, 167, 131, 0.356);
+    border: none;
+    box-sizing: border-box;
+}
+
+.event-form-button {
+    background-color: lightslategrey;
+    color: white;
+    padding: 10px 25px;
+    margin: 10px 0;
+    border: none;
+}
